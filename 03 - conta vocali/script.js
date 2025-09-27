@@ -16,8 +16,13 @@ const word = 'javascript';
 function countVowels(word) {
     let counter = 0;
     for (let i = 0; i < word.length; i++) {
-        curLetter = word[i];
-        if (curLetter === "a" || curLetter === "e" || curLetter === "i" || curLetter === "o" || curLetter === "u") {
+        const curLetter = word[i];
+        if (curLetter === "a" ||
+            curLetter === "e" ||
+            curLetter === "i" ||
+            curLetter === "o" ||
+            curLetter === "u"
+        ) {
             counter += 1;
         }
     }

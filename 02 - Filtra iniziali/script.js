@@ -2,7 +2,6 @@
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
-
 // Dichiara la funzione qui.
 
 /**
@@ -16,15 +15,14 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 function filterByInitial(array, letter) {
     const validWords = [];
-    for (i = 0; i < array.length; i++) {
-        curWord = array[i];
+    for (let i = 0; i < array.length; i++) {
+        const curWord = array[i];
         if (curWord[0] === letter) {
             validWords.push(curWord);
         }
     }
     return validWords
 }
-
 
 // Invoca la funzione qui e stampa il risultato in console
 

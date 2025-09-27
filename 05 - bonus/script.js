@@ -37,5 +37,4 @@ function sayCiao(name) {
 
 console.log(sayCiao(name));
 
-
 //Risultato atteso se si passa 'Mario' alle 18: // Buonasera Mario.
